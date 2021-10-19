@@ -1,0 +1,66 @@
+<div>POST to https://staging-api.invideo.io/v2/email_signup</div>
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    {
+    &quot;full_name&quot;: &quot;Mack Barrows I&quot;,
+    &quot;brand_name&quot;: &quot;Swift Group&quot;,
+    &quot;email&quot;: &quot;apiautoabfinalqtr25@example.in&quot;,
+    &quot;password&quot;: &quot;Password-1234&quot;,
+    &quot;route&quot;: &quot;invideo&quot;,
+    &quot;link&quot;: &quot;https://staging.invideo.io/verify?mash=&quot;,
+    &quot;phone&quot;: &quot;1-685-678-3041&quot;,
+    &quot;page_source&quot;: &quot;https://staging.invideo.io/&quot;,
+    &quot;button_position&quot;: &quot;Top Right - Header&quot;,
+    &quot;first_touch_point&quot;: &quot;/&quot;,
+    &quot;last_touch_point&quot;: &quot;/&quot;,
+    &quot;initial_raw_url&quot;: &quot;https://staging.invideo.io/&quot;,
+    &quot;device_id&quot;: &quot;1S-lO2f6SY1cbimhawuyWB&quot;,
+    &quot;location&quot;: &quot;header&quot;,
+    &quot;recaptcha_response&quot;: &quot;qa&quot;,
+    &quot;team_invite&quot;: true,
+    &quot;is_invite_link_used&quot;: false,
+    &quot;is_mobile&quot;: false,
+    &quot;referrer&quot;: &quot;app&quot;,
+    &quot;profileDeviceId&quot;: &quot;1S-lO2f6SY1cbimhawuyWB&quot;
+}
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36</div>
+        <div>sec-ch-ua: Not;A Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;91&quot;, &quot;Chromium&quot;;v=&quot;91&quot;</div>
+        <div>sec-ch-ua-mobile: ?0</div>
+        <div>Accept: application/json, text/plain, */*</div>
+        <div>Content-Type: application/json; charset=UTF-8</div>
+</div>
+
+
+
+<h4>Curl</h4>
+<div>
+curl -v -X POST &#39;https://staging-api.invideo.io/v2/email_signup&#39; -H &#39;User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36&#39; -H &#39;sec-ch-ua: Not;A Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;91&quot;, &quot;Chromium&quot;;v=&quot;91&quot;&#39; -H &#39;sec-ch-ua-mobile: ?0&#39; -H &#39;Accept: application/json, text/plain, */*&#39; -H &#39;Content-Type: application/json; charset=UTF-8&#39; -d &#39;{
+    &quot;full_name&quot;: &quot;Mack Barrows I&quot;,
+    &quot;brand_name&quot;: &quot;Swift Group&quot;,
+    &quot;email&quot;: &quot;apiautoabfinalqtr25@example.in&quot;,
+    &quot;password&quot;: &quot;Password-1234&quot;,
+    &quot;route&quot;: &quot;invideo&quot;,
+    &quot;link&quot;: &quot;https://staging.invideo.io/verify?mash=&quot;,
+    &quot;phone&quot;: &quot;1-685-678-3041&quot;,
+    &quot;page_source&quot;: &quot;https://staging.invideo.io/&quot;,
+    &quot;button_position&quot;: &quot;Top Right - Header&quot;,
+    &quot;first_touch_point&quot;: &quot;/&quot;,
+    &quot;last_touch_point&quot;: &quot;/&quot;,
+    &quot;initial_raw_url&quot;: &quot;https://staging.invideo.io/&quot;,
+    &quot;device_id&quot;: &quot;1S-lO2f6SY1cbimhawuyWB&quot;,
+    &quot;location&quot;: &quot;header&quot;,
+    &quot;recaptcha_response&quot;: &quot;qa&quot;,
+    &quot;team_invite&quot;: true,
+    &quot;is_invite_link_used&quot;: false,
+    &quot;is_mobile&quot;: false,
+    &quot;referrer&quot;: &quot;app&quot;,
+    &quot;profileDeviceId&quot;: &quot;1S-lO2f6SY1cbimhawuyWB&quot;
+}&#39;
+</div>

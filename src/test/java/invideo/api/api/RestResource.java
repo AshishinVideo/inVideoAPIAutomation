@@ -11,24 +11,17 @@ import static io.restassured.RestAssured.given;
 
 public class RestResource {
 
-    public static Response post(String path, String token, Object requestPlaylist){
+
+    public static Response post(String path, Object request){
         return given(getRequestSpec()).
-                body(requestPlaylist).
-                auth().oauth2(token).
+                body(request).
         when().post(path).
         then().spec(getResponseSpec()).
                 extract().
                 response();
     }
 
-    public static Response postAccount(HashMap<String, String> formParams){
-        return given(getAccountRequestSpec()).
-                formParams(formParams).
-        when().post(API + TOKEN).
-        then().spec(getResponseSpec()).
-                extract().
-                response();
-    }
+
 
     public static Response get(String path, String token){
         return given(getRequestSpec()).

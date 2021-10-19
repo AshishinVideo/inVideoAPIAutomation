@@ -3,14 +3,23 @@ package invideo.api.utils;
 import com.github.javafaker.Faker;
 
 public class FakerUtils {
+    static Faker faker = new Faker();
 
+    public static String generateUserid(){
+        return faker.regexify("[A-Za-z0-9]{10}") + "@example.in";
+
+    }
+    public static String generateBrand(){
+        return faker.company().name();
+    }
+    public static String generatePhonenumber(){
+        return faker.phoneNumber().phoneNumber();
+    }
     public static String generateName(){
-        Faker faker = new Faker();
-        return "Playlist " + faker.regexify("[A-Za-z0-9 ,_-]{10}");
+        return faker.name().fullName();
     }
 
-    public static String generateDescription(){
-        Faker faker = new Faker();
-        return "Description " + faker.regexify("[ A-Za-z0-9_@./#&+-]{50}");
-    }
+    //faker.regexify("[A-Za-z0-9 ,_-]{10}");
+    //faker.regexify("[ A-Za-z0-9_@./#&+-]{50}
+
 }
