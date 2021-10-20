@@ -1,5 +1,7 @@
 package invideo.api.api;
 
+import invideo.api.utils.ConfigLoader;
+import invideo.api.utils.DataLoader;
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
@@ -21,7 +23,7 @@ public class SpecBuilder {
         headerMap.put("Content-Type","application/json");
 
         return new RequestSpecBuilder().
-                setBaseUri("https://staging-api.invideo.io").
+                setBaseUri(ConfigLoader.getInstance().getBaseUrl()).
                 addHeaders(headerMap).
                 addFilter(new AllureRestAssured()).
                 log(LogDetail.ALL).

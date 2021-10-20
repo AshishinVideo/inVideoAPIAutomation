@@ -1,0 +1,36 @@
+<div>Status code 403 </div>
+
+
+<h4>Body</h4>
+<div>
+    <pre class="preformated-text">
+    &lt;html&gt;
+  &lt;body&gt;{&quot;message&quot;: &quot;That email address is already associated with an Invideo account. Please login to continue.&quot;, &quot;code&quot;: 403, &quot;traceback&quot;: &quot;Traceback (most recent call last):\n  File \&quot;/opt/invideo-backend/.venv/lib/python3.8/site-packages/pyramid/tweens.py\&quot;, line 39, in excview_tween\n    response = handler(request)\n  File \&quot;/opt/invideo-backend/.venv/lib/python3.8/site-packages/pyramid/router.py\&quot;, line 151, in handle_request\n    response = _call_view(\n  File \&quot;/opt/invideo-backend/.venv/lib/python3.8/site-packages/sentry_sdk/integrations/pyramid.py\&quot;, line 90, in sentry_patched_call_view\n    return old_call_view(registry, request, *args, **kwargs)\n  File \&quot;/opt/invideo-backend/.venv/lib/python3.8/site-packages/pyramid/view.py\&quot;, line 642, in _call_view\n    response = view_callable(context, request)\n  File \&quot;/opt/invideo-backend/.venv/lib/python3.8/site-packages/pyramid/viewderivers.py\&quot;, line 390, in attr_view\n    return view(context, request)\n  File \&quot;/opt/invideo-backend/.venv/lib/python3.8/site-packages/pyramid/viewderivers.py\&quot;, line 368, in predicate_wrapper\n    return view(context, request)\n  File \&quot;/opt/invideo-backend/.venv/lib/python3.8/site-packages/pyramid/viewderivers.py\&quot;, line 439, in rendered_view\n    result = view(context, request)\n  File \&quot;/opt/invideo-backend/.venv/lib/python3.8/site-packages/pyramid/viewderivers.py\&quot;, line 148, in _requestonly_view\n    response = view(request)\n  File \&quot;/opt/invideo-backend/invideoapp/views/auth.py\&quot;, line 1315, in email_signup\n    raise err\n  File \&quot;/opt/invideo-backend/invideoapp/views/auth.py\&quot;, line 1180, in email_signup\n    user, account, _ = auth_processing_v3.handle_email_signup(\n  File \&quot;/opt/invideo-backend/invideoapp/invideomodules/v3/auth_processing_v3.py\&quot;, line 456, in handle_email_signup\n    raise HTTPForbidden(\npyramid.httpexceptions.HTTPForbidden: That email address is already associated with an Invideo account. Please login to continue.\n&quot;}&lt;/body&gt;
+&lt;/html&gt;
+    </pre>
+</div>
+
+<h4>Headers</h4>
+<div>
+        <div>Transfer-Encoding: chunked</div>
+        <div>Server: cloudflare</div>
+        <div>CF-RAY: 6a12d63d29612e00-BOM</div>
+        <div>X-Content-Type-Options: nosniff</div>
+        <div>Connection: keep-alive</div>
+        <div>Pragma: no-cache</div>
+        <div>Date: Wed, 20 Oct 2021 14:11:42 GMT</div>
+        <div>X-Frame-Options: SAMEORIGIN</div>
+        <div>Referrer-Policy: no-referrer, strict-origin-when-cross-origin</div>
+        <div>Strict-Transport-Security: max-age=63072000; includeSubdomains</div>
+        <div>CF-Cache-Status: DYNAMIC</div>
+        <div>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}</div>
+        <div>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=WkI7GEnAvqK2cIzT7HzcEg0ltG7t72MEoymmYKvSrtKMD2EDcECoo7wSqTWM%2BlYPY9fIZpL54QJmEUVHuOsewbmUQIkvoVEc606yPCMtgnScIOMJVm8qdNAy3%2FTEMQA%2BthfNP7KiaYc%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}</div>
+        <div>Content-Encoding: gzip</div>
+        <div>Expires: 0</div>
+        <div>X-XSS-Protection: 1; mode=block</div>
+        <div>Content-Type: text/html; charset=UTF-8</div>
+        <div>Cache-control: no-cache, no-store, must-revalidate, max-age=0</div>
+        <div>Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;</div>
+</div>
+
+

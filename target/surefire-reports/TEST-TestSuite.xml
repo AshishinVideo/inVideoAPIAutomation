@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="9.692" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/ashishbhadane/Downloads/RestAssuredInvideo/target/test-classes:/Users/ashishbhadane/Downloads/RestAssuredInvideo/target/classes:/Users/ashishbhadane/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/ashishbhadane/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/ashishbhadane/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/ashishbhadane/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ashishbhadane/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ashishbhadane/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ashishbhadane/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ashishbhadane/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/ashishbhadane/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/ashishbhadane/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/ashishbhadane/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/ashishbhadane/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/ashishbhadane/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/ashishbhadane/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/ashishbhadane/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/ashishbhadane/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/ashishbhadane/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/ashishbhadane/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/ashishbhadane/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/ashishbhadane/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/ashishbhadane/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/ashishbhadane/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/ashishbhadane/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/ashishbhadane/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/ashishbhadane/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/ashishbhadane/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/ashishbhadane/.m2/repository/com/google/guava/guava/25.1-android/guava-25.1-android.jar:/Users/ashishbhadane/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/ashishbhadane/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/ashishbhadane/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/ashishbhadane/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/ashishbhadane/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/ashishbhadane/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/ashishbhadane/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.1/jackson-databind-2.12.1.jar:/Users/ashishbhadane/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.1/jackson-annotations-2.12.1.jar:/Users/ashishbhadane/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar:/Users/ashishbhadane/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar:/Users/ashishbhadane/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/ashishbhadane/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar:/Users/ashishbhadane/.m2/repository/io/qameta/allure/allure-testng/2.13.8/allure-testng-2.13.8.jar:/Users/ashishbhadane/.m2/repository/io/qameta/allure/allure-java-commons/2.13.8/allure-java-commons-2.13.8.jar:/Users/ashishbhadane/.m2/repository/io/qameta/allure/allure-model/2.13.8/allure-model-2.13.8.jar:/Users/ashishbhadane/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/ashishbhadane/.m2/repository/org/apache/tika/tika-core/1.24.1/tika-core-1.24.1.jar:/Users/ashishbhadane/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:/Users/ashishbhadane/.m2/repository/io/qameta/allure/allure-rest-assured/2.13.8/allure-rest-assured-2.13.8.jar:/Users/ashishbhadane/.m2/repository/io/qameta/allure/allure-attachments/2.13.8/allure-attachments-2.13.8.jar:/Users/ashishbhadane/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/ashishbhadane/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/ashishbhadane/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/ashishbhadane/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/ashishbhadane/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/ashishbhadane/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/ashishbhadane/Downloads/RestAssuredInvideo/target/surefire/surefirebooter4169954743922448502.jar /Users/ashishbhadane/Downloads/RestAssuredInvideo/target/surefire 2021-10-20T19-58-28_424-jvmRun1 surefire11671671995175056579tmp surefire_015421488870832795245tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/ashishbhadane/Downloads/RestAssuredInvideo/target/test-classes:/Users/ashishbhadane/Downloads/RestAssuredInvideo/target/classes:/Users/ashishbhadane/.m2/repository/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar:/Users/ashishbhadane/.m2/repository/org/codehaus/groovy/groovy/3.0.7/groovy-3.0.7.jar:/Users/ashishbhadane/.m2/repository/org/codehaus/groovy/groovy-xml/3.0.7/groovy-xml-3.0.7.jar:/Users/ashishbhadane/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/ashishbhadane/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/ashishbhadane/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/ashishbhadane/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/ashishbhadane/.m2/repository/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3.jar:/Users/ashishbhadane/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/ashishbhadane/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/ashishbhadane/.m2/repository/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar:/Users/ashishbhadane/.m2/repository/org/codehaus/groovy/groovy-json/3.0.7/groovy-json-3.0.7.jar:/Users/ashishbhadane/.m2/repository/io/rest-assured/rest-assured-common/4.3.3/rest-assured-common-4.3.3.jar:/Users/ashishbhadane/.m2/repository/io/rest-assured/xml-path/4.3.3/xml-path-4.3.3.jar:/Users/ashishbhadane/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/ashishbhadane/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/ashishbhadane/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.3/jaxb-impl-2.3.3.jar:/Users/ashishbhadane/.m2/repository/org/testng/testng/7.3.0/testng-7.3.0.jar:/Users/ashishbhadane/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/ashishbhadane/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/ashishbhadane/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/ashishbhadane/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/ashishbhadane/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/ashishbhadane/.m2/repository/com/google/inject/guice/4.2.2/guice-4.2.2-no_aop.jar:/Users/ashishbhadane/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/ashishbhadane/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/ashishbhadane/.m2/repository/com/google/guava/guava/25.1-android/guava-25.1-android.jar:/Users/ashishbhadane/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/ashishbhadane/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/ashishbhadane/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/ashishbhadane/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/ashishbhadane/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/ashishbhadane/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/ashishbhadane/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.1/jackson-databind-2.12.1.jar:/Users/ashishbhadane/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.1/jackson-annotations-2.12.1.jar:/Users/ashishbhadane/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar:/Users/ashishbhadane/.m2/repository/org/skyscreamer/jsonassert/1.5.0/jsonassert-1.5.0.jar:/Users/ashishbhadane/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/Users/ashishbhadane/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar:/Users/ashishbhadane/.m2/repository/io/qameta/allure/allure-testng/2.13.8/allure-testng-2.13.8.jar:/Users/ashishbhadane/.m2/repository/io/qameta/allure/allure-java-commons/2.13.8/allure-java-commons-2.13.8.jar:/Users/ashishbhadane/.m2/repository/io/qameta/allure/allure-model/2.13.8/allure-model-2.13.8.jar:/Users/ashishbhadane/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/ashishbhadane/.m2/repository/org/apache/tika/tika-core/1.24.1/tika-core-1.24.1.jar:/Users/ashishbhadane/.m2/repository/org/jooq/joor-java-8/0.9.13/joor-java-8-0.9.13.jar:/Users/ashishbhadane/.m2/repository/io/qameta/allure/allure-rest-assured/2.13.8/allure-rest-assured-2.13.8.jar:/Users/ashishbhadane/.m2/repository/io/qameta/allure/allure-attachments/2.13.8/allure-attachments-2.13.8.jar:/Users/ashishbhadane/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/ashishbhadane/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/ashishbhadane/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/ashishbhadane/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/ashishbhadane/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/ashishbhadane/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/ashishbhadane"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-16.0.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/ashishbhadane/Downloads/RestAssuredInvideo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/ashishbhadane/Downloads/RestAssuredInvideo/target/surefire/surefirebooter4169954743922448502.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="16.0.1+9-24"/>
+    <property name="user.name" value="ashishbhadane"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/ashishbhadane/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/1q/xhj9b5rj7bdb8xzq09hvtyxm0000gn/T/"/>
+    <property name="java.version" value="16.0.1"/>
+    <property name="user.dir" value="/Users/ashishbhadane/Downloads/RestAssuredInvideo"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/ashishbhadane/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.1+9-24"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="invalidSignup" classname="invideo.api.tests.SignupTests" time="2.962">
+    <system-out><![CDATA[STARTING TEST: validLogin
+STARTING TEST: invalidLogin
+THREAD ID: 17
+THREAD ID: 18
+Request method:	POST
+Request URI:	https://staging-api.invideo.io/v2/loginv3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		sec-ch-ua=Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+				sec-ch-ua-mobile=?0
+				Accept=application/json, text/plain, */*
+				User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userid": "owuKEk32gm@example.in",
+    "password": "Password-1234",
+    "route": "invideo",
+    "partnerToken": "",
+    "referrer": "app",
+    "profileDeviceId": "1S-lO2f6SY1cbimhawuyWB"
+}
+Request method:	POST
+Request URI:	https://staging-api.invideo.io/v2/loginv3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		sec-ch-ua=Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+				sec-ch-ua-mobile=?0
+				Accept=application/json, text/plain, */*
+				User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userid": "apiautoabfinalqtr6@example.in",
+    "password": "Password-1234",
+    "route": "invideo",
+    "partnerToken": "",
+    "referrer": "app",
+    "profileDeviceId": "1S-lO2f6SY1cbimhawuyWB"
+}
+Request method:	POST
+Request URI:	https://staging-api.invideo.io/v2/email_signup
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		sec-ch-ua=Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+				sec-ch-ua-mobile=?0
+				Accept=application/json, text/plain, */*
+				User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "full_name": "Ryan Murphy",
+    "brand_name": "Lind-Goodwin",
+    "email": "apiautoabfinalqtr25@example.in",
+    "password": "Password-1234",
+    "route": "invideo",
+    "link": "https://staging.invideo.io/verify?mash=",
+    "phone": "(588) 684-9797 x9583",
+    "page_source": "https://staging.invideo.io/",
+    "button_position": "Top Right - Header",
+    "first_touch_point": "/",
+    "last_touch_point": "/",
+    "initial_raw_url": "https://staging.invideo.io/",
+    "device_id": "1S-lO2f6SY1cbimhawuyWB",
+    "location": "header",
+    "recaptcha_response": "qa",
+    "team_invite": true,
+    "is_invite_link_used": false,
+    "is_mobile": false,
+    "referrer": "app",
+    "profileDeviceId": "1S-lO2f6SY1cbimhawuyWB"
+}
+Request method:	POST
+Request URI:	https://staging-api.invideo.io/v2/email_signup
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		sec-ch-ua=Not;A Brand";v="99", "Google Chrome";v="91", "Chromium";v="91"
+				sec-ch-ua-mobile=?0
+				Accept=application/json, text/plain, */*
+				User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "full_name": "Dr. Louis Macejkovic",
+    "brand_name": "Berge-Mann",
+    "email": "E1jK121tBE@example.in",
+    "password": "Password-1234",
+    "route": "invideo",
+    "link": "https://staging.invideo.io/verify?mash=",
+    "phone": "(226) 750-3308 x401",
+    "page_source": "https://staging.invideo.io/",
+    "button_position": "Top Right - Header",
+    "first_touch_point": "/",
+    "last_touch_point": "/",
+    "initial_raw_url": "https://staging.invideo.io/",
+    "device_id": "1S-lO2f6SY1cbimhawuyWB",
+    "location": "header",
+    "recaptcha_response": "qa",
+    "team_invite": true,
+    "is_invite_link_used": false,
+    "is_mobile": false,
+    "referrer": "app",
+    "profileDeviceId": "1S-lO2f6SY1cbimhawuyWB"
+}
+HTTP/1.1 403 Forbidden
+Date: Wed, 20 Oct 2021 14:28:38 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Strict-Transport-Security: max-age=63072000; includeSubdomains
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer, strict-origin-when-cross-origin
+Pragma: no-cache
+Expires: 0
+Cache-control: no-cache, no-store, must-revalidate, max-age=0
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vz%2FCIp9qAKKLu0PLyeID45LJmtaO3iKB4EcfQgbrK2PVstjJjSu9OB6a4G73eACfh%2B7os9bqn6VQ9FKlhngDsg3yZpo3HBz3QPAdDnk%2FDJ9VET%2F3%2F0hFQHf76jzIucvn4yLGuX%2BJTvw%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6a12ef0ddd682e4c-BOM
+Content-Encoding: gzip
+
+<html>
+  <body>{"message": "That email address is already associated with an Invideo account. Please login to continue.", "code": 403, "traceback": "Traceback (most recent call last):\n  File \"/opt/invideo-backend/.venv/lib/python3.8/site-packages/pyramid/tweens.py\", line 39, in excview_tween\n    response = handler(request)\n  File \"/opt/invideo-backend/.venv/lib/python3.8/site-packages/pyramid/router.py\", line 151, in handle_request\n    response = _call_view(\n  File \"/opt/invideo-backend/.venv/lib/python3.8/site-packages/sentry_sdk/integrations/pyramid.py\", line 90, in sentry_patched_call_view\n    return old_call_view(registry, request, *args, **kwargs)\n  File \"/opt/invideo-backend/.venv/lib/python3.8/site-packages/pyramid/view.py\", line 642, in _call_view\n    response = view_callable(context, request)\n  File \"/opt/invideo-backend/.venv/lib/python3.8/site-packages/pyramid/viewderivers.py\", line 390, in attr_view\n    return view(context, request)\n  File \"/opt/invideo-backend/.venv/lib/python3.8/site-packages/pyramid/viewderivers.py\", line 368, in predicate_wrapper\n    return view(context, request)\n  File \"/opt/invideo-backend/.venv/lib/python3.8/site-packages/pyramid/viewderivers.py\", line 439, in rendered_view\n    result = view(context, request)\n  File \"/opt/invideo-backend/.venv/lib/python3.8/site-packages/pyramid/viewderivers.py\", line 148, in _requestonly_view\n    response = view(request)\n  File \"/opt/invideo-backend/invideoapp/views/auth.py\", line 1315, in email_signup\n    raise err\n  File \"/opt/invideo-backend/invideoapp/views/auth.py\", line 1180, in email_signup\n    user, account, _ = auth_processing_v3.handle_email_signup(\n  File \"/opt/invideo-backend/invideoapp/invideomodules/v3/auth_processing_v3.py\", line 456, in handle_email_signup\n    raise HTTPForbidden(\npyramid.httpexceptions.HTTPForbidden: That email address is already associated with an Invideo account. Please login to continue.\n"}</body>
+</html>
+HTTP/1.1 403 Forbidden
+Date: Wed, 20 Oct 2021 14:28:38 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Strict-Transport-Security: max-age=63072000; includeSubdomains
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer, strict-origin-when-cross-origin
+Pragma: no-cache
+Expires: 0
+Cache-control: no-cache, no-store, must-revalidate, max-age=0
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ky8%2BBV9Zcj3Ma59SOoHelDz8kmwydxci9Qe9t%2BMxmp3aQDnXkuWkddN3vmpKDMY47Yac31r8JqHhlKLCZgqcTWMQ79gyastJudT1WY72MuHt2ViJ1PHV1DQrqSsXwW6SmvMzf4TVKUQ%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6a12ef0ddaf66989-BOM
+Content-Encoding: gzip
+
+<html>
+  <body>{"message": "The email or password you entered is incorrect. Please try again.", "code": 403, "traceback": "Traceback (most recent call last):\n  File \"/opt/invideo-backend/.venv/lib/python3.8/site-packages/pyramid/tweens.py\", line 39, in excview_tween\n    response = handler(request)\n  File \"/opt/invideo-backend/.venv/lib/python3.8/site-packages/pyramid/router.py\", line 151, in handle_request\n    response = _call_view(\n  File \"/opt/invideo-backend/.venv/lib/python3.8/site-packages/sentry_sdk/integrations/pyramid.py\", line 90, in sentry_patched_call_view\n    return old_call_view(registry, request, *args, **kwargs)\n  File \"/opt/invideo-backend/.venv/lib/python3.8/site-packages/pyramid/view.py\", line 642, in _call_view\n    response = view_callable(context, request)\n  File \"/opt/invideo-backend/.venv/lib/python3.8/site-packages/pyramid/viewderivers.py\", line 390, in attr_view\n    return view(context, request)\n  File \"/opt/invideo-backend/.venv/lib/python3.8/site-packages/pyramid/viewderivers.py\", line 368, in predicate_wrapper\n    return view(context, request)\n  File \"/opt/invideo-backend/.venv/lib/python3.8/site-packages/pyramid/viewderivers.py\", line 439, in rendered_view\n    result = view(context, request)\n  File \"/opt/invideo-backend/.venv/lib/python3.8/site-packages/pyramid/viewderivers.py\", line 148, in _requestonly_view\n    response = view(request)\n  File \"/opt/invideo-backend/invideoapp/views/auth.py\", line 714, in loginv3\n    raise err\n  File \"/opt/invideo-backend/invideoapp/views/auth.py\", line 602, in loginv3\n    user, account = auth_processing_v3.handle_login(\n  File \"/opt/invideo-backend/invideoapp/invideomodules/v3/auth_processing_v3.py\", line 540, in handle_login\n    raise HTTPForbidden(detail=\"The email or password you entered is incorrect. Please try again.\")\npyramid.httpexceptions.HTTPForbidden: The email or password you entered is incorrect. Please try again.\n"}</body>
+</html>
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="validSignup" classname="invideo.api.tests.SignupTests" time="3.06">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Wed, 20 Oct 2021 14:28:39 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Strict-Transport-Security: max-age=63072000; includeSubdomains
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer, strict-origin-when-cross-origin
+Pragma: no-cache
+Expires: 0
+Cache-control: no-cache, no-store, must-revalidate, max-age=0
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ojQW0xbcsjowBj4hO30HvRqU1xLQfTO0vpAGmvfXvKxX8GRZKs%2FGpbnZI8hipVfygP%2BvUeTMTZQE8Ohb7%2FWNvkj5pNzJXLKxxF5uUY4%2BuTFDPj0KhBDbjjBBty6GTCazXtxMcUlT5iA%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6a12ef0ddb602e0a-BOM
+Content-Encoding: gzip
+
+{
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJyb2xlIjpbImFkbWluIl0sImFjY291bnQiOjIwMjkzNDQsInZlcnNpb24iOiI0LjEuMyIsImNvbmZpZyI6ImludmlkZW8iLCJpc19ndWVzdCI6ZmFsc2UsInN1YiI6ImFwaWF1dG9hYmZpbmFscXRyNkBleGFtcGxlLmluIiwiaWF0IjoxNjM0NzQwMTE4LCJleHAiOjE2NTAyOTIxMTgsInZlciI6Mn0.2N_MqLklxYz-cd-eZUQlxR4WAfSA595E6R4wrfa6c5772Ga84H1UP0F1M9ZoifIWV01WlOImzWH6YTzD3_M5yQ",
+    "token_expires": 1650292118,
+    "email": "apiautoabfinalqtr6@example.in",
+    "user_id": "apiautoabfinalqtr6@example.in",
+    "first_name": "API",
+    "last_name": "testing",
+    "phone": "+91 4563453425",
+    "account": 2029344,
+    "id": 2040327,
+    "role": "admin",
+    "account_details": {
+        "payment_plan": "BUSINESS_WATERMARK",
+        "duration": "MONTHLY",
+        "display_name": "Free Plan",
+        "account_id": 2029344
+    },
+    "email_archetype": "test",
+    "new_user": false
+}
+HTTP/1.1 200 OK
+Date: Wed, 20 Oct 2021 14:28:39 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Strict-Transport-Security: max-age=63072000; includeSubdomains
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer, strict-origin-when-cross-origin
+Pragma: no-cache
+Expires: 0
+Cache-control: no-cache, no-store, must-revalidate, max-age=0
+CF-Cache-Status: DYNAMIC
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=OC2TD%2BImC6Ol8IV76L8SJoXaYgg10Q%2FWovKrYJfiMXc%2BCIel8wmHZgiP2rDePaMQwhALlshDBYdqoof7RPRFRZxmmoRBbnEwJB9m04IVmDKPxLvskQrm%2FGZbwG%2Fj8sa3eJzwqkDQ2zs%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6a12ef0dda363226-BOM
+Content-Encoding: gzip
+
+{
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJyb2xlIjpbImFkbWluIl0sImFjY291bnQiOjI4Mzc4MjUsInZlcnNpb24iOiI0LjEuMyIsImNvbmZpZyI6ImludmlkZW8iLCJpc19ndWVzdCI6ZmFsc2UsInN1YiI6IkUxaksxMjF0QkVAZXhhbXBsZS5pbiIsImlhdCI6MTYzNDc0MDExNiwiZXhwIjoxNjUwMjkyMTE2LCJ2ZXIiOjJ9.TmEdSnCMTm0e-ERO4_TCjAO4-phbNQGBWOZ_GDH5vuJPfqY5ek1NNTDN-RIMBJ4xyycP2FyAweoPcDBmTstyFg",
+    "token_expires": 1650292116,
+    "email": "E1jK121tBE@example.in",
+    "user_id": "E1jK121tBE@example.in",
+    "first_name": "Dr.",
+    "last_name": "Louis Macejkovic",
+    "phone": "(226) 750-3308 x401",
+    "account": 2837825,
+    "id": 2843562,
+    "role": "admin",
+    "account_details": {
+        "payment_plan": "BUSINESS_WATERMARK",
+        "duration": "MONTHLY",
+        "display_name": "Free Plan",
+        "account_id": 2837825
+    },
+    "email_archetype": "test",
+    "new_user": true
+}
+]]></system-out>
+  </testcase>
+  <testcase name="invalidLogin" classname="invideo.api.tests.LoginTests" time="2.962"/>
+  <testcase name="validLogin" classname="invideo.api.tests.LoginTests" time="3.554">
+    <system-out><![CDATA[This is token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJyb2xlIjpbImFkbWluIl0sImFjY291bnQiOjIwMjkzNDQsInZlcnNpb24iOiI0LjEuMyIsImNvbmZpZyI6ImludmlkZW8iLCJpc19ndWVzdCI6ZmFsc2UsInN1YiI6ImFwaWF1dG9hYmZpbmFscXRyNkBleGFtcGxlLmluIiwiaWF0IjoxNjM0NzQwMTE4LCJleHAiOjE2NTAyOTIxMTgsInZlciI6Mn0.2N_MqLklxYz-cd-eZUQlxR4WAfSA595E6R4wrfa6c5772Ga84H1UP0F1M9ZoifIWV01WlOImzWH6YTzD3_M5yQ
+]]></system-out>
+  </testcase>
+</testsuite>
