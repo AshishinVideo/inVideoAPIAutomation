@@ -17,6 +17,12 @@ public class ConfigLoader {
         return configLoader;
     }
 
+    public String getBaseUrl(){
+        String prop = properties.getProperty("BASE_URL");
+        if(prop != null) return prop;
+        else throw new RuntimeException("property BASE_URL is not specified in the config.properties file");
+    }
+
     public String getClientId(){
         String prop = properties.getProperty("client_id");
         if(prop != null) return prop;

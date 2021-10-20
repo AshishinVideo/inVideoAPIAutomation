@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-20T19:58:30 IST" name="Surefire suite" finished-at="2021-10-20T19:58:39 IST" duration-ms="8734">
+    <groups>
+    </groups>
+    <test started-at="2021-10-20T19:58:30 IST" name="Surefire test" finished-at="2021-10-20T19:58:39 IST" duration-ms="8734">
+      <class name="invideo.api.tests.SignupTests">
+        <test-method signature="validSignup()[pri:0, instance:invideo.api.tests.SignupTests@706cb08]" started-at="2021-10-20T19:58:30 IST" name="validSignup" finished-at="2021-10-20T19:58:38 IST" duration-ms="8191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validSignup -->
+        <test-method signature="invalidSignup()[pri:0, instance:invideo.api.tests.SignupTests@706cb08]" started-at="2021-10-20T19:58:30 IST" name="invalidSignup" finished-at="2021-10-20T19:58:38 IST" duration-ms="8080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidSignup -->
+      </class> <!-- invideo.api.tests.SignupTests -->
+      <class name="invideo.api.tests.LoginTests">
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:invideo.api.tests.LoginTests@45792847]" started-at="2021-10-20T19:58:30 IST" name="beforeMethod" finished-at="2021-10-20T19:58:30 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void invideo.api.tests.LoginTests.validLogin() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:invideo.api.tests.LoginTests@45792847]" started-at="2021-10-20T19:58:30 IST" name="beforeMethod" finished-at="2021-10-20T19:58:30 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void invideo.api.tests.LoginTests.invalidLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validLogin()[pri:0, instance:invideo.api.tests.LoginTests@45792847]" started-at="2021-10-20T19:58:30 IST" name="validLogin" description="Should login with valid credentials" finished-at="2021-10-20T19:58:39 IST" duration-ms="8562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method signature="invalidLogin()[pri:0, instance:invideo.api.tests.LoginTests@45792847]" started-at="2021-10-20T19:58:30 IST" name="invalidLogin" finished-at="2021-10-20T19:58:38 IST" duration-ms="7957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+      </class> <!-- invideo.api.tests.LoginTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

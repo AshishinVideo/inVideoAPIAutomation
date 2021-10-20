@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="10" parallel="methods" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="10" parallel="methods" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="invideo.api.tests.SignupTests">
+        <methods>
+          <include name="validSignup"/>
+          <include name="invalidSignup"/>
+        </methods>
+      </class> <!-- invideo.api.tests.SignupTests -->
+      <class name="invideo.api.tests.LoginTests">
+        <methods>
+          <include name="invalidLogin"/>
+          <include name="validLogin"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- invideo.api.tests.LoginTests -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

@@ -4,15 +4,13 @@ import io.restassured.response.Response;
 
 import java.util.HashMap;
 
-import static invideo.api.api.Route.API;
-import static invideo.api.api.Route.TOKEN;
 import static invideo.api.api.SpecBuilder.*;
 import static io.restassured.RestAssured.given;
 
 public class RestResource {
 
 
-    public static Response post(String path, Object request){
+    public static Response  post(String path, Object request){
         return given(getRequestSpec()).
                 body(request).
         when().post(path).

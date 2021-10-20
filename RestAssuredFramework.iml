@@ -48,7 +48,7 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.12.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.skyscreamer:jsonassert:1.5.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.vaadin.external.google:android-json:0.0.20131108.vaadin1" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.18.18" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.18.20" level="project" />
     <orderEntry type="library" name="Maven: io.qameta.allure:allure-testng:2.13.8" level="project" />
     <orderEntry type="library" name="Maven: io.qameta.allure:allure-java-commons:2.13.8" level="project" />
     <orderEntry type="library" name="Maven: io.qameta.allure:allure-model:2.13.8" level="project" />

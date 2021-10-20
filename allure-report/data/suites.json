@@ -1,0 +1,73 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "RestAssuredInvideo",
+      "children" : [ {
+        "name" : "invideo.api.tests.LoginTests",
+        "children" : [ {
+          "name" : "invalidLogin",
+          "uid" : "cb3f79b50b745720",
+          "parentUid" : "8e39e97aeac9110553cd5ab21d8d8a6b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1634632762815,
+            "stop" : 1634632765883,
+            "duration" : 3068
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validLogin",
+          "uid" : "473c222ea5d12aeb",
+          "parentUid" : "8e39e97aeac9110553cd5ab21d8d8a6b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1634632765924,
+            "stop" : 1634632766474,
+            "duration" : 550
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8e39e97aeac9110553cd5ab21d8d8a6b"
+      }, {
+        "name" : "invideo.api.tests.SignupTests",
+        "children" : [ {
+          "name" : "invalidSignup",
+          "uid" : "4dbcc0d79f584463",
+          "parentUid" : "da15d304d25d2282c1fea4096c59a32a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1634703880016,
+            "stop" : 1634703884218,
+            "duration" : 4202
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "validSignup",
+          "uid" : "6bad3c36781dfda6",
+          "parentUid" : "da15d304d25d2282c1fea4096c59a32a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1634703884259,
+            "stop" : 1634703884826,
+            "duration" : 567
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "da15d304d25d2282c1fea4096c59a32a"
+      } ],
+      "uid" : "bf09144a0d3bb518963ab3db93cb2d07"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  } ]
+}
